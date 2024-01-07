@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="menu">
+        <!-- Title -->
+        <div class="title">
+             <h2>Our Menu</h2>
+             <div class="underline">
+             </div>
+        </div>
+        <!-- Filter Buttons  -->
+        <div class="btn-container">
+            <button class="filter-btn" type="button" data-id="all"> All </button>
+            <button class="filter-btn" type="button" data-id="Breakfast"> Breakfast </button>
+            <button class="filter-btn" type="button" data-id="Lunch"> Lunch </button>
+            <button class="filter-btn" type="button" data-id="Shakes"> Shakes </button>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="section-center">
+            <!-- Single Item -->
+            <article class="menu-item">
+                <img src="Menu_Images/menu-item.jpeg" class="photo" alt="">
+                <div class="item-info">
+                    <header>
+                        <h4>Buttermilk Pancakes</h4>
+                    <h4 class="price">Rs700</h4> 
+                    </header>
+                    <p class="item-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt voluptatibus vitae optio quos nisi ut culpa tempora, possimus hic ad!
+                    </p>
+                </div>
+            </article>
+            <!-- End Single Item -->
+        </div>
+    </section>
+
+    <script src="8_Menu.js"></script>
+</body>
+</html>

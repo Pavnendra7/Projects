@@ -1,0 +1,18 @@
+.subscribe-button {
+    color: green;
+    background-color: chocolate;
+    opacity: 0.5;
+    box-shadow: 8px 6px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-button:hover {
+    color:blue;
+    background-color: grey;
+}
+
+.subscribe-button:active {
+    color: blueviolet;
+    background-color: violet;
+    
+}
+
